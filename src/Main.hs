@@ -30,7 +30,7 @@ iton :: Integer -> Nat
 iton i = if i >= 0 then i * 2 else -i * 2 - 1
 
 ntoi :: Nat -> Integer
-ntoi n = if even n then n `div` 2 else -((n + 1) `div` 2)
+ntoi n = if even n then n `div` 2 else -(n + 1) `div` 2
 
 --------------------------------------------------------------------------------
 

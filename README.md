@@ -1,6 +1,6 @@
 # isomorphisms
 
-[![Build Status](https://travis-ci.org/doersino/isomorphisms.svg?branch=master)](https://travis-ci.org/doersino/isomorphisms)
+[![Build Status](https://travis-ci.com/doersino/isomorphisms.svg?token=zqGLmNq38muyM7XHMUFU&branch=master)](https://travis-ci.com/doersino/isomorphisms)
 
 Code shown in my [blog post "Isomorphisms Between Integers and Some Composite Types in Haskell"](https://hejnoah.com/posts/isomorphisms.html).
 
@@ -9,10 +9,10 @@ Code shown in my [blog post "Isomorphisms Between Integers and Some Composite Ty
 ```
 git clone https://github.com/doersino/isomorphisms.git
 cd isomorphisms
-stack build && stack exec isomorphisms
+stack build && stack exec isomorphisms  # see haskellstack.org
 ```
 
-Expected output (after status messages):
+Expected output (after the usual build status messages):
 
 ```
 +++ OK, passed 100 tests.
