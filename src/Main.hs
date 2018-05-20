@@ -57,7 +57,7 @@ ttoi (x,y) = ntoi $ ((x' + y') * (x' + y' + 1)) `div` 2 + y'
 --------------------------------------------------------------------------------
 
 itolofi :: Integer -> [Integer]
-itolofi i = map fst $ take (fromIntegral $ l) $ iterate (\(x,y) -> itot y) (itot i')
+itolofi i = map fst $ take (fromIntegral l) $ iterate (\(x,y) -> itot y) (itot i')
   where
     (l,i') = itot i
 
