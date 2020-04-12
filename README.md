@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.com/doersino/isomorphisms.svg?token=zqGLmNq38muyM7XHMUFU&branch=master)](https://travis-ci.com/doersino/isomorphisms)
 
-Code shown in my [blog post "Isomorphisms Between Integers and Some Composite Types in Haskell"](https://hejnoah.com/posts/isomorphisms.html).
+Code shown in my [blog post "Isomorphisms Between Integers and Some Composite Types in Haskell"](https://excessivelyadequate.com/posts/isomorphisms.html).
 
 ## Setup & Usage
 
@@ -31,4 +31,4 @@ Expected output (after the usual build status messages):
 [0,0,0,3]
 ```
 
-The last two tests fail for the reasons [detailed in the post](https://hejnoah.com/posts/isomorphisms.html). You should go read it!
+The last two tests fail for the reasons [detailed in the post](https://excessivelyadequate.com/posts/isomorphisms.html). You should go read it!
